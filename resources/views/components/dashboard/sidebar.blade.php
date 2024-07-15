@@ -28,7 +28,7 @@
         <ul class="sidebar-menu">
             <li class="sidebar-menu-title">MENU</li>
             <li class="">
-                <a href="" class="navItem active">
+                <a href="{{ route('settings.index') }}" class="navItem active">
                     <span class="flex items-center">
                         <iconify-icon class=" nav-icon" icon="heroicons-outline:adjustments"></iconify-icon>
                         <span>Settings</span>
