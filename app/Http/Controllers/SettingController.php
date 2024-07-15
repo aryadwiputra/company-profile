@@ -24,7 +24,7 @@ class SettingController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.dashboard.settings.create');
     }
 
     /**

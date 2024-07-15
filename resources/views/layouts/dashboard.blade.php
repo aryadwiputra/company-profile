@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    {{-- token --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>{{ config('app.name') }}</title>
     <link rel="icon" type="image/png" href="assets/dashboard/images/logo/favicon.svg">
     @include('includes.dashboard.style')
@@ -43,7 +45,7 @@
                         <div class="transition-all duration-150 container-fluid" id="page_layout">
                             <div id="content_layout">
                                 <!-- BEGIN: Breadcrumb -->
-                                <x-dashboard.breadcrumb />
+                                {{-- <x-dashboard.breadcrumb /> --}}
                                 <!-- END: BreadCrumb -->
                                 <div class=" space-y-5">
                                     @yield('content')
