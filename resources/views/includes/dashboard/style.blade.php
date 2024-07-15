@@ -4,8 +4,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <!-- END: Google Font -->
 <!-- BEGIN: Theme CSS-->
-<link rel="stylesheet" href="assets/dashboard/css/sidebar-menu.css">
-<link rel="stylesheet" href="assets/dashboard/css/SimpleBar.css">
-<link rel="stylesheet" href="assets/dashboard/css/app.css">
+<link rel="stylesheet" href="{{ asset('assets/dashboard/css/sidebar-menu.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/dashboard/css/SimpleBar.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/dashboard/css/rt-plugins.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/dashboard/css/app.css') }}">
+
 <!-- END: Theme CSS-->
-<script src="assets/dashboard/js/settings.js" sync></script>
+<script src="{{ asset('assets/dashboard/js/settings.js') }}" sync></script>

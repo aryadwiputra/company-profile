@@ -9,9 +9,12 @@
     <link rel="icon" type="image/png" href="assets/dashboard/images/logo/favicon.svg">
     @include('includes.dashboard.style')
     @stack('css')
+
+    {{-- vite --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class=" font-inter dashcode-app" id="body_class">
+<body class="font-inter dashcode-app" id="body_class">
     <!-- [if IE]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif] -->
     <main class="app-wrapper">
         <!-- BEGIN: Sidebar -->
